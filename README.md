@@ -9,3 +9,5 @@ Learning C# basics on the command line
 | [/helloworld](./helloworld/README.md) | Learn the basics of creating a simple console application, and running the necessary commands to build and execute. |
 | [/data-types](./data-types/README.md) | Learn the different built-in data types that C# has. |
 | [/variables](./variables/README.md) | Learn how to create variables to store values in |
+| [/operators](./operators/README.md) | Learn what are the different comparison operators and how they are used. |
+| [/control-flow](./control-flow/README.md) | Learn how the flow of code is redirected using IF...THEN and SWITCH statements. |
