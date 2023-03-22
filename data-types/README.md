@@ -9,3 +9,6 @@ Review the code and the attached comments. These describe the basics data types 
 * [Boolean (bool)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool)
 * [Character (char)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/char)
 * [Strings (string, String)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/)
+* [Arrays](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/)
+* [Tuples](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples)
+* [Destructuring Tuples](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct)

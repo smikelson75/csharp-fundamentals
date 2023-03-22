@@ -1,4 +1,4 @@
-# C# Fundamentals - Hello World
+# C# Fundamentals - Hello Worl
 
 Program gives the basics of how to create a new console application and additional commands.
 

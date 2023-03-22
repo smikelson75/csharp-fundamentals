@@ -28,3 +28,27 @@ string greeting = "Hello World, ";
 string person = new String("John");
 string personalized_greeting = greeting + person + "!"; // concatenation
 
+// Array
+// https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/
+float[] location_array = new float[] {41.4094069f, -81.8546911f};
+string abbreviation = "KCLE";
+Console.WriteLine($"Location Name: {abbreviation}, Latitude: {location_array[0]}, Longitude: {location_array[1]}");
+
+// There are no destructuring for arrays only Tuples and user-defined types using (Deconstruct)
+// https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct
+
+// Tuples
+// https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples
+(float, float) location_tuple = (location_array[0], location_array[1]);
+Console.WriteLine($"Location Name: {abbreviation}, Latitude: {location_tuple.Item1}, Longitude: {location_tuple.Item2}");
+
+(string name, float latitude, float longitude) location_named_tuple = (abbreviation, location_array[0], location_array[1]);
+Console.WriteLine($"Location Name: {location_named_tuple.name}, Latitude: {location_named_tuple.latitude}, Longitude: {location_named_tuple.longitude}");
+
+// Destructuring tuples
+var (name, latitude1, longitude1) = location_named_tuple;
+Console.WriteLine($"Location Name: {name}, Latitude: {latitude1}, Longitude: {longitude1}");
+
+// Destructuring with discards
+var (location_name, _, _) = location_named_tuple;
+Console.WriteLine($"Location Name: {location_name}");
