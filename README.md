@@ -11,5 +11,8 @@ Learning C# basics on the command line
 | [/variables](./variables/README.md) | Learn how to create variables to store values in |
 | [/operators](./operators/README.md) | Learn what are the different comparison operators and how they are used. |
 | [/control-flow](./control-flow/README.md) | Learn how the flow of code is redirected using IF...THEN and SWITCH statements. |
-| [/functions](./functions/README.md) | Learn to use functions within C# to isolate your code. |
 | [/data-structures](./data-structures/README.md) | Create C# data structures `struct` and `class`. |
+| [/functions](./functions/README.md) | Learn to use functions within C# to isolate your code. |
+| [/collections](./collections/README.md) | Learn to use Collections with Generics to store a listing of values. |
+| [/generics](./generics/README.md) | Learn about how to use generics to get runtime declaration of data type.|
+| [/concurrency](./concurrency/README.md) | Learn about how to use async/await to write asynchronous code. |
